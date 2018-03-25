@@ -159,6 +159,7 @@ public class OrikaTest {
         origin.setTotalLength(203);
         origin.setTotalHeight(56);
         origin.setPoType(PoType.GRAY_PO);
+
     }
 
 
