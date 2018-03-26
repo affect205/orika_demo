@@ -12,6 +12,7 @@ import java.math.BigDecimal;
 public class CostFull {
     private Long id;
     private Long gpoServiceId;
+    private String costGroupId;
     private CostType costType;
     private BigDecimal totalCost;
     private BigDecimal rateCost;

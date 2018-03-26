@@ -12,4 +12,5 @@ public class StateFull {
     private String stateName;
     private StateCodes code;
     private String stateType;
+    private Boolean initialState;
 }

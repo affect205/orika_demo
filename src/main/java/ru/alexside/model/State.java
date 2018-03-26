@@ -1,17 +1,13 @@
 package ru.alexside.model;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Data;
 
 import javax.persistence.*;
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by Alex on 25.03.2018.
  */
-@Getter
-@Setter
+@Data
 @Entity
 @Table(name = "OM_STATES")
 public class State {

@@ -39,10 +39,12 @@ public class JPAToDTOConverter {
                 .register();
 
         mapperFactory.classMap(RpoHeader.class, RpoHeaderFull.class)
+                .exclude("gpoHeader")
                 .byDefault()
                 .register();
 
         mapperFactory.classMap(Contact.class, ContactFull.class)
+                .field("details", "contacts")
                 .byDefault()
                 .register();
 

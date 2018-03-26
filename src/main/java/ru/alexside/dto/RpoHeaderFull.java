@@ -26,6 +26,14 @@ public class RpoHeaderFull {
 
     private String zip5To;
 
+    private String stopGroupId;
+
+    private String claimGroupId;
+
+    private String costGroupId;
+
+    private String logGroupId;
+
     private List<StopFull> stops;
 
     private StateFull state;
@@ -33,6 +41,8 @@ public class RpoHeaderFull {
     private RouteFull route;
 
     private List<CostFull> costs;
+
+    private List<ClaimFull> claims;
 
     private LocalDateTime postTime;
 

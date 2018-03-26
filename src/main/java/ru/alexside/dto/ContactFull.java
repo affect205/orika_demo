@@ -10,6 +10,7 @@ import java.util.List;
  */
 @Data
 public class ContactFull {
+    private Long id;
     private String type;
     private String name;
     private String companyName;

@@ -1,6 +1,8 @@
 package ru.alexside.model;
 
 import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.ToString;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
@@ -10,6 +12,8 @@ import java.util.UUID;
  * Created by Alex on 25.03.2018.
  */
 @Data
+@EqualsAndHashCode(exclude = {"gpoHeader"})
+@ToString(exclude = {"gpoHeader"})
 @Entity
 @Table(name = "OM_SERVICES")
 public class Service {

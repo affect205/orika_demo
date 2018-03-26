@@ -15,4 +15,5 @@ public class ServiceFull {
     private Long serviceQty;
     private BigDecimal rateCost;
     private BigDecimal totalCost;
+    private Long rpoHeaderId;
 }
